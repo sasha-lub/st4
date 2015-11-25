@@ -1,0 +1,199 @@
+table, td, th {
+	border: 1px solid #f8cbdf;
+	background-color: #1c156a;
+	color: white;
+	font-family: "Courier New";
+	width: 100%;
+}
+
+table tr:nth-child(odd) {
+    background-color: #b1f5e7;
+}
+table tr:nth-child(even) {
+    background-color: #74e7e7;
+}
+
+body {
+	background-color: #f9d9f7;
+}
+
+select {
+	background-color: #ff0683;
+	color: white;
+	font-family: "Courier New";
+}
+
+option:HOVER, option:FOCUS {
+	background-color: #c60063;
+	color: white;
+	font-family: "Courier New";
+}
+
+#search_bar {
+	background-color: #c0c0c0;
+	text-color: #000000;
+	font-family: "Courier New";
+	padding: 1%;
+	display: none;
+}
+#toggle_search_bar_btn {
+	width: auto;
+	margin: 3% 30% 3% ;
+}
+#toggle_search_bar_btn:hover {
+	background-color: #c0c0c0;
+}
+.buffer {
+	background-color: #f9d9f7;
+	text-color: #000000;
+	font-family: "Courier New";
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 1%;
+}
+
+#bar {
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+
+#logout_button_form {
+	background-color: black;
+	color: white;
+	text-align: right;
+	padding: 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+a:link, a:visited {
+	display: block;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: transparent;
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover, a:active {
+	background-color: #808080;
+}
+
+#logregbutton {
+	background-color: #c0c0c0;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	border: 4px solid #ff0080;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Courier New;
+	font-size: 15px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+#logregbutton:hover, #logregbutton:active {
+	background-color: #822abd;
+}
+
+#barbutton {
+	background-color: transparent;
+	cursor: pointer;
+	font-family: Courier New;
+	border: 0px;
+	text-transform: uppercase;
+	display: block;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+#barbutton:hover, #barbutton:active {
+	background-color: #808080;
+}
+
+.button {
+	background-color: white;
+	display: inline-block;
+	cursor: pointer;
+	font-family: "Courier New";
+	color: #ff0080;
+	padding: 20px 30px;
+	border: 0px;
+	text-transform: uppercase;
+	width: 150px;
+}
+
+.button:hover, .button:active {
+	background-color: gray;
+}
+
+.search_button {
+	background-color: #d52b95;
+	display: inline-block;
+	cursor: pointer;
+	font-family: "Courier New";
+	color: white;
+	border: 0px;
+	text-transform: uppercase;
+	width: 150px;
+	padding: 0px 0px;
+	
+}
+
+.search_button:HOVER {
+	background-color: #b0247c;
+	display: inline-block;
+	cursor: pointer;
+	font-family: "Courier New";
+	color: white;
+	border: 0px;
+	text-transform: uppercase;
+	width: 150px;
+	padding: 0px 0px;
+}
+#table_button {
+	background-color: white;
+	opacity: 0.8;
+	filter: alpha(opacity = 80); /* For IE8 and earlier */
+	display: inline-block;
+	cursor: pointer;
+	font-family: "Courier New";
+	color: #808080;
+	padding: 5px 4px;
+	border: 0px;
+	color: #ff0080;
+	width: auto;
+}
+
+#table_button:hover, #table_button:ACTIVE {
+	opacity: 1.4;
+	filter: alpha(opacity = 140);
+}
+
+
+#leftsidemenu {
+	line-height: 30px;
+	background-color: pink;
+	width: 20%;
+	height: 10%;
+	float: left;
+	padding: 3%;
+	float: left;
+}

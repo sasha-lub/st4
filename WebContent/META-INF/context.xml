@@ -1,0 +1,12 @@
+<Context>
+  <Resource name="jdbc/ST4DB"
+  			auth="Container" 
+  			type="javax.sql.DataSource"
+			maxActive="100" maxIdle="30"
+			username="test" password="test" 
+			driverClassName="org.apache.derby.jdbc.ClientDriver"
+			defaultAutoCommit="false"
+			defaultTransactionIsolation="READ_COMMITTED"
+			url="jdbc:derby://localhost:1527/st4db"/>
+			
+</Context>
